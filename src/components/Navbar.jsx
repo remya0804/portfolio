@@ -6,13 +6,14 @@ import {Link} from 'react-scroll'
 const Navbar = () => {
 
     const [menu,setMenu] = useState(false)
+    
 
   return (
     <div className='flex items-center justify-between w-full fixed left-0 top-0 text-white bg-black px-8  '>
         
         <div>
              
-             <h1 className='text-2xl lg:text-5xl font-semibold py-4 font-signature bg-gradient-to-r from-pink-600  to-blue-500 text-transparent bg-clip-text'>Remya</h1>
+             <h1 className='text-2xl lg:text-5xl font-semibold py-4 font-signature bg-gradient-to-r from-pink-600  to-blue-500 text-transparent bg-clip-text'><Link className='font-signature' to="home"> Remya </Link></h1>
         </div>
 
         <ul className='hidden md:flex'>

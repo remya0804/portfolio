@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
 
-    <div name="home" className='pt-16 md:pt-28 min-h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 px-4'>
+    <div name="home" className=' pt-16 md:pt-28 min-h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 px-4'>
         
         <div className='max-w-screen-lg mx-auto flex flex-col-reverse  items-center justify-center h-full px-4 text-white md:flex-row'>
 
@@ -34,6 +34,8 @@ const Home = () => {
             </div>
 
         </div>
+
+        <hr className='lg:hidden border-none m-auto mt-24 h-[2px] bg-blue-800 w-[80%]'/>
 
         
     </div>
