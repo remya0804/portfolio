@@ -35,7 +35,6 @@ const Home = () => {
 
         </div>
 
-        <hr className='lg:hidden border-none m-auto mt-24 h-[2px] bg-blue-800 w-[80%]'/>
 
         
     </div>
