@@ -21,11 +21,11 @@ const SocialMedia = () => {
                 <a className='flex justify-between items-center w-full text-white' href="https://github.com/remya0804"><> Github <FaGithub className='text-xl' /></></a>
 
             </li>
-            <li className='flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md duration-300 bg-gray-500 hover:ml-[-10px]'>
+            {/* <li className='flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md duration-300 bg-gray-500 hover:ml-[-10px]'>
 
                 <a className='flex justify-between items-center w-full text-white' href="/resume.pdf" download={true} ><> Resume <ImProfile className='text-xl' /></></a>
 
-            </li>
+            </li> */}
             <li className='flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md duration-300 bg-gray-500 hover:ml-[-10px]'>
 
                 <a className='flex justify-between items-center w-full text-white' href="mailto:remya.rs0804@gmail.com"><> Email <IoMdMail className='text-xl' /></></a>

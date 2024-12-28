@@ -23,11 +23,11 @@ const Footer = () => {
                         <a className='flex justify-between items-center w-full text-white' href="https://github.com/remya0804"><>  <FaGithub className='text-xl' /></></a>
         
                     </li>
-                    <li className='flex justify-between items-center  h-14 px-4 '>
+                    {/* <li className='flex justify-between items-center  h-14 px-4 '>
         
                         <a className='flex justify-between items-center w-full text-white' href="/resume.pdf" download={true} ><>  <ImProfile className='text-xl' /></></a>
         
-                    </li>
+                    </li> */}
                     <li className='flex justify-between items-center h-14 px-4 '>
         
                         <a className='flex justify-between items-center w-full text-white' href="mailto:remya.rs0804@gmail.com"><>  <IoMdMail className='text-xl' /></></a>
