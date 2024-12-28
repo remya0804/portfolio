@@ -42,7 +42,7 @@ const Projects = () => {
     ]
 
   return (
-    <div name="projects" className='pt-20 p-4 bg-gradient-to-b from-black to-gray-800 w-full text-white h-full'>
+    <div name="projects" className=' p-4 pt-16 bg-gradient-to-b from-black to-gray-800 w-full text-white '>
         
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col items-start justify-start w-full h-ful'>
 

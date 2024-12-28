@@ -2,7 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name="contact" className='p-4 pt-20 bg-gradient-to-b from-black to-gray-800 w-full text-white h-full'>
+
+   
+    <div name="contact" className='p-4 pt-16 bg-gradient-to-b from-black to-gray-800 w-full text-white ' style={{ scrollMarginTop: '200px' }}  >
         
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col items-start justify-start w-full h-full'>
 
